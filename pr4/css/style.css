@@ -1,0 +1,135 @@
+body 
+{
+    background: black;
+}
+
+nav
+{
+    font-size:16px; 
+    margin-left: 260px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-top: 15px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover {
+    color: white;
+    text-decoration: underline orange;
+    text-decoration-thickness: 2px;
+}
+button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    margin-left: 850px;
+    margin-top: 260px;
+    background: orange;
+    color: white;
+    text-align: center;
+    font-size:14px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-style: hidden;
+}
+button:hover {
+    background: darkorange;
+}
+
+img {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 115px;
+    width: 1200px;
+}
+
+.search-box {
+    background: black;
+    border-color: grey;
+    font-size:14px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 160px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.bell {
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    margin-left: 1280px;
+    margin-top: 0px;
+
+}
+
+.koilo {
+    margin-left: 115px;
+    position: absolute;
+    text-align: left; 
+    color: white;
+    font-size:16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.koilodot {
+    margin-left: 175px;
+    position: absolute;
+    text-align: left; 
+    color: orange;
+    font-size:16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;}
+
+.quote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; 
+    color: white;
+    position: absolute;
+    font-size: 45px;
+    margin-left: 115px;
+    margin-top: 150px;
+}
+
+.secondquote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; 
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 850px;
+    margin-top: 200px;
+}
+
+.quotedash {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; 
+    color: orange;
+    position: absolute;
+    font-size: 45px;
+    margin-left: 350px;
+    margin-top: 260px;
+}
+
+.firststar {
+    color: orange;
+    position: absolute;
+    font-size: 65px;
+    margin-top: 100px;
+    margin-left: 850px;
+}
+
+.secondstar {
+    color: orange;
+    position: absolute;
+    font-size: 35px;
+    margin-top: 140px;
+    margin-left: 900px;
+}
